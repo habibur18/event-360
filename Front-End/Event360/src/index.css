@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  overflow-x: hidden;
+  background: #f9fcff;
+}
+.custom-padding {
+  @apply px-6 md:px-10 lg:px-20 2xl:px-0 mx-auto;
+}
+
+.swiper-wrapper {
+  transition-duration: 0ms;
+  transition-delay: 0ms;
+  transform: translate3d(136.125px, 0px, 0px);
+}
