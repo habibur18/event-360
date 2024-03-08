@@ -30,8 +30,12 @@ To get a local copy of this project up and running, follow these steps:
 1. Clone the repository: `git clone https://github.com/your-username/your-repository.git`
 2. Navigate to the project directory: `cd your-repository`
 3. Install dependencies: `npm install`
-4. Start the development server: `npm run dev`
-5. Open your browser and visit: `http://localhost:3000`
+4. Go to Front-end folder
+5. Start the development server: `npm run dev`
+6. Open your browser and visit: `http://localhost:5173`
+7. Go to Back-end folder
+8. Start the server: `npm i`
+9. 6. Open your browser and visit: `http://localhost:5000`
 
 ## Backend API
 

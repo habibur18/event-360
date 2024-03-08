@@ -9,7 +9,7 @@ export default function useEventItemsUpdate() {
   const queryClient = useQueryClient();
   const { mutateAsync, isError, isSuccess } = useMutation<void, Error, EventData>( // Provide type annotations here
     async (data: EventData) => {
-      return await fetch(`http://localhost:5000/items/${data._id}`, {
+      return await fetch(`https://back-nz86sgw11-habibu-rahmans-projects.vercel.app/items/${data._id}`, {
         method: "PATCH",
         body: JSON.stringify(data),
         headers: {

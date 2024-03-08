@@ -11,7 +11,7 @@ export default function useEventItemsAdd() {
 
   const { mutateAsync, isError, isSuccess } = useMutation<void, Error, EventData>(
     async (data: EventData) => {
-      await fetch("http://localhost:5000/items", {
+      await fetch("https://back-nz86sgw11-habibu-rahmans-projects.vercel.app/items", {
         method: "POST",
         body: JSON.stringify(data),
         headers: {

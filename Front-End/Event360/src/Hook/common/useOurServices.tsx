@@ -4,7 +4,7 @@ const useOurServices = () => {
   const { data, error, isLoading } = useQuery({
     queryKey: ["services"],
     queryFn: async () => {
-      const response = await fetch("http://localhost:5000/services");
+      const response = await fetch("https://back-nz86sgw11-habibu-rahmans-projects.vercel.app/services");
       return response.json();
     },
   });

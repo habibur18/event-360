@@ -19,7 +19,7 @@ export const useRecentEventsHandle = (): {
   const queryClient = useQueryClient();
   const { mutateAsync, isError, isSuccess } = useMutation<MutateEventData, Error, EventData, unknown>(
     async (data: EventData) => {
-      const response = await fetch("http://localhost:5000/events", {
+      const response = await fetch("https://back-nz86sgw11-habibu-rahmans-projects.vercel.app/events", {
         method: "POST",
         body: JSON.stringify(data),
         headers: {

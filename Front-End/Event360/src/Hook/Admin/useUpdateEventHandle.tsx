@@ -12,7 +12,7 @@ export default function useUpdateEventHandle() {
 
   const { mutateAsync, isError, isSuccess } = useMutation<EventData, unknown, EventData>(
     async (data: EventData) => {
-      return await fetch(`http://localhost:5000/events/${data._id}`, {
+      return await fetch(`https://back-nz86sgw11-habibu-rahmans-projects.vercel.app/events/${data._id}`, {
         method: "PATCH",
         body: JSON.stringify(data),
         headers: {

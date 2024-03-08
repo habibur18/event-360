@@ -4,7 +4,7 @@ const useRecentEventData = () => {
   const { data, error, isLoading } = useQuery({
     queryKey: ["events"],
     queryFn: async () => {
-      const response = await fetch("http://localhost:5000/events");
+      const response = await fetch("https://back-nz86sgw11-habibu-rahmans-projects.vercel.app/events");
       return response.json();
     },
   });
