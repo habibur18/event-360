@@ -27,8 +27,8 @@ This project is a landing page for events built with React, TypeScript, and Vite
 
 To get a local copy of this project up and running, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/your-repository.git`
-2. Navigate to the project directory: `cd your-repository`
+1. Clone the repository: `git clone https://github.com/habibur18/event-360`
+2. Navigate to the project directory: `cd front-end`
 3. Install dependencies: `npm install`
 4. Go to Front-end folder
 5. Start the development server: `npm run dev`
@@ -45,11 +45,11 @@ To get a local copy of this project up and running, follow these steps:
 
 ## Demo
 
-To see a live demo of this project, visit [Live Demo](https://your-live-demo-url.com).
+To see a live demo of this project, visit [Live Demo](https://event-360s.netlify.app/).
 
 ## Author
 
-- Your Name
-- Your Email
+- habibur
+- habiburwebdev@gmail.com
 
 Feel free to contact me with any questions or suggestions!
